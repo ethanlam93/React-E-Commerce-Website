@@ -13,3 +13,10 @@ export const removeItem = (item) => ({
   type: CartActionTypes.REMOVE_ITEM,
   payload: item,
 });
+
+export const removeOneItem = (item) => {
+  return {
+    type: CartActionTypes.REMOVE_ONE_ITEM,
+    payload: item,
+  };
+};
